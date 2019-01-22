@@ -1,4 +1,4 @@
-# vtemplate
+# v-admin-template
 
 ## Project setup
 ```
