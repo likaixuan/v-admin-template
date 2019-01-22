@@ -18,6 +18,7 @@ module.exports = {
         return args
       })
   },
+  publicPath:process.env.VUE_APP_PUBLIC_PATH, // 静态资源路径
   configureWebpack: {
     externals: isProd ? externals:[], // 生产环境时配置cdn
     devServer: {
