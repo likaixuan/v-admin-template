@@ -29,7 +29,7 @@ module.exports = {
         if (isProd) {
           args[0].cdn = {
             css: cssCdn,
-            js: jsCdn
+            js: isProd ? jsCdn : []
           }
         }
         return args
